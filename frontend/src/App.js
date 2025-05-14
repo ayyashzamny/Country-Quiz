@@ -54,7 +54,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<CountryExplorer />} />
-      <Route path="/quiz" element={<CountryFlagGame />} />
+      <Route path="/game" element={<CountryFlagGame />} />
     </Routes>
   );
 }
