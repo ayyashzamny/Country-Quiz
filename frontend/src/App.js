@@ -47,14 +47,14 @@
 // App.js
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import CountryExplorer from "./pages/CountryExplorer";
+// import CountryExplorer from "./pages/CountryExplorer";
 import CountryFlagGame from "./pages/Country-flag-quiz";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<CountryExplorer />} />
-      <Route path="/game" element={<CountryFlagGame />} />
+      {/* <Route path="/" element={<CountryExplorer />} /> */}
+      <Route path="/" element={<CountryFlagGame />} />
     </Routes>
   );
 }

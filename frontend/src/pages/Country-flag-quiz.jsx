@@ -112,7 +112,7 @@ export default function CountryFlagGame() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
 
             {/* Instruction Modal */}
             <Modal show={showModal} backdrop="static" centered>
